@@ -1,0 +1,169 @@
+*{
+    font-family:Serif;
+}
+
+p{
+    margin:0;
+}
+
+
+
+header{
+    height:60px;
+    width:100%;
+    background-color:#eee8aa;
+}
+
+header a{
+    display:block;  
+    color: gray;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding-top:10px;
+    line-height:20px;
+    text-align:center;
+    font-family:Serif;
+    font-size:20px;
+    border:1px solid blue;
+}
+
+header p{
+    font-size:10px;
+}
+
+header h4{
+    text-align:center;
+    font-family:Serif;
+    font-size:10px;
+    border:1px solid blue;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 0 auto;
+    border:1px solid blue;
+    text-align:center;
+  }
+
+.top{
+    height:600px;
+    width:100%;
+    background-image:url(images/P1030021.JPG);
+    opacity:0.7;
+    background-size:cover;
+    background-position:center center;
+    padding:30px 0px;
+}
+
+.top h2{
+    text-align:center;
+    line-height:0px;
+    margin-top:200px;
+    color:white;
+    font-family:Serif;
+    font-size:100px;
+    text-shadow: 0px 0px 5px black;
+    border:1px solid blue;
+}
+
+.top p{
+    border:1px solid blue;
+}
+
+.top{
+    text-align:center;
+    color:white;
+    font-family:Serif;
+    font-size:20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.introduce{
+    height:800px;
+    width:100%;
+    border-top:50px solid goldenrod;
+    background-color:white;
+    padding:30 0px;
+    background-image:url(images/20231011_103217.png);
+    opacity:0.7;
+    background-size:cover;
+    background-position:bottom;
+}
+
+.introduce-text{
+    width:600px;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:0px;   
+    border:1px solid blue;
+}
+
+.introduce h3{
+    text-align:center;
+    font-size:30px;
+}
+
+.introduce p{
+    text-align:center;
+}
+
+.gif-video{
+    text-align:right;
+    border:1px solid blue;
+}
+
+.items{
+    height:800px;
+    width:100%;
+    background-color:white;
+    padding:30 0px;
+}
+
+.breads{
+    text-align:left;
+    position:relative;
+    opacity:0.7;
+} 
+
+.absolute{
+    position:absolute;
+    bottom:40px;
+    left:220px;
+    
+}
+
+.breads a:hover {
+    opacity:1;
+}
+
+.clickInfo{
+    
+    color:gray;
+}
+
+.access{
+    height:600px;
+    width:100%;
+    background-color:ivory;
+    padding:30 0px;
+}
+
+.contact{
+    height:600px;
+    width:100%;
+    background-color:gray;
+    padding:30 0px;
+}
+
+footer{
+    height:200px;
+    width:100%;
+    background-color:yellow;
+    padding:30 0px;
+}
+
+footer img{
+    width:5%;
+}
